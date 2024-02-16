@@ -120,8 +120,8 @@ namespace GemGame
             Console.WriteLine("Use (U,L,R,D) to move.");
             Console.WriteLine();
 
-            Console.WriteLine("-------------------");
-
+            Console.WriteLine("*******************");
+                               
             for (int y = 0; y < 6; y++)
             {
                 Console.Write("|  ");
@@ -147,7 +147,7 @@ namespace GemGame
                 Console.WriteLine("   |");
             }
 
-            Console.WriteLine("-------------------");
+            Console.WriteLine("*******************");
         }
 
         public bool IsValidMove(Player player, char direction)
