@@ -117,7 +117,7 @@ namespace GemGame
         public void Display(Player player1, Player player2)
         {
             Console.WriteLine("Gems Hero - Collect the most gems!");
-            Console.WriteLine("Use (U,L,R,D) to move.");
+            Console.WriteLine("Use (UP,DOWN,LEFT,RIGHT) to move.");
             Console.WriteLine();
 
             Console.WriteLine("*******************");
