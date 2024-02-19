@@ -292,7 +292,7 @@ namespace GemGame
             else
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("\n\n It's a tie!");
+                Console.WriteLine("\n\n It's a tie !");
             }
 
             Console.WriteLine("\nPress any key to close the program...");
