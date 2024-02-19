@@ -295,7 +295,7 @@ namespace GemGame
                 Console.WriteLine("\n\n It's a tie !");
             }
 
-            Console.WriteLine("\nPress any key to close the program...");
+            Console.WriteLine("\nChoose any key to close the GemHunter Program...");
             Console.ReadKey();
         }
 
