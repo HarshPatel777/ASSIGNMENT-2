@@ -129,13 +129,13 @@ namespace GemGame
                 {
                     if (player1.Position.X == x && player1.Position.Y == y)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Blue;
                         Console.Write("P1");
                         Console.ResetColor();
                     }
                     else if (player2.Position.X == x && player2.Position.Y == y)
                     {
-                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("P2");
                         Console.ResetColor();
                     }
