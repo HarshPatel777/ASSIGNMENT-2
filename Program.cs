@@ -278,7 +278,7 @@ namespace GemGame
                 }
                 else
                 {
-                    Console.WriteLine("Invalid move! Try again.");
+                    Console.WriteLine("MOVE IS NOT VALID! Try again.");
                 }
             }
 
